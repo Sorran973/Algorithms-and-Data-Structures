@@ -2,6 +2,14 @@ package SortingAlgorithms;
 
 import java.util.Arrays;
 
+/**
+ * In Selection sort, a maximum of n swap operations are required,
+ * whereas in Bubble Sort, up to n swap operation happens for each
+ * element, so up to n2 total swap operation are required. These
+ * swap (write) operations are memory-intensive, so Selection sort
+ * becomes even more efficient than Bubble sort for large lists.
+ */
+
 public class SelectionSort {
     static void swap(int[] array, int firstIndex, int secondIndex) {
         int temp = array[firstIndex];
